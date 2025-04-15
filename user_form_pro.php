@@ -4,7 +4,7 @@ include 'db_connection.php';
 
 if (isset($_SESSION['user_id']) && $_SESSION['user_id'] !== '') {
 
-    if (isset($_POST['fname']) && $_POST['fname'] !== '' && isset($_POST['lname']) && $insert_query = $_POST['lname'] !== '' && isset($_POST['userName']) && $_POST['userName'] !== '' && isset($_POST['password']) && $_POST['password'] !== '' && isset($_POST['gmail']) && $_POST['gmail'] !== '') {
+    if (isset($_POST['fname']) && $_POST['fname'] !== '' && isset($_POST['lname']) && $_POST['lname'] !== '' && isset($_POST['userName']) && $_POST['userName'] !== '' && isset($_POST['password']) && $_POST['password'] !== '' && isset($_POST['gmail']) && $_POST['gmail'] !== '') {
 
         $fname = $_POST['fname'];
         $lname = $_POST['lname'];
